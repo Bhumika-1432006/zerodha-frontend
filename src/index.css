@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* since nav-item is the class that has to be changed to create space between the icons on the nav bar*/
+.nav-link{
+ margin-left: 40px;
+}
+
+#supportHero{
+  background-color:rgb(56 ,126 ,209);
+  color:white;
+}
+
+#supportHero a{
+  color:white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin:0 120px
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width : 90%;
+  font-size: 20px;
+  border-radius:10px;
+  border:none;
+}/* Support Page Styles */
+#supportHero {
+    background-color: #387ed1; /* Zerodha Blue */
+    color: white;
+    min-height: 400px;
+}
+
+#supportHero input {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+#supportHero input:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+#supportHero a {
+    transition: 0.2s ease-in-out;
+}
+
+#supportHero a:hover {
+    color: #eee !important;
+    text-decoration: none !important;
+}
+
+/* Make Ticket links turn blue on hover */
+.container a {
+    color: #387ed1;
+    transition: 0.2s;
+}
+
+.container a:hover {
+    color: #2a5a9e;
+}
