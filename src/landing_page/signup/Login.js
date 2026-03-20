@@ -25,8 +25,8 @@ function Login() {
         localStorage.setItem("userEmail", inputValue.email);
         
         setTimeout(() => {
-          // UPDATED: Replace with your actual live Dashboard Vercel URL
-          window.location.href = `https://your-dashboard-link.vercel.app?email=${inputValue.email}`; 
+          // UPDATED: Use your live Vercel dashboard URL here
+          window.location.href = `https://zerodha-dashboard-bhumika.vercel.app?email=${inputValue.email}`; 
         }, 1000);
       } else {
         toast.error(data.message);
