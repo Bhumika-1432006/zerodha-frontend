@@ -29,7 +29,7 @@ function Footer() {
         <div className="col text-muted">
           <p style={{ fontWeight: "500", color: "#424242" }}>Support</p>
           <Link to="/support" className="text-muted d-block mb-2" style={{ textDecoration: "none" }}>Support portal</Link>
-          <Link to="/contact" className="text-muted d-block mb-2" style={{ textDecoration: "none" }}>Contact</Link>
+          
           <Link to="/pricing" className="text-muted d-block mb-2" style={{ textDecoration: "none" }}>List of Charges</Link>
         </div>
 
