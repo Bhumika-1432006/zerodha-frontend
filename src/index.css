@@ -132,6 +132,7 @@ code {
     text-align: left;
   }
 }
+
 /* Center all content within your product rows */
 .row {
   align-items: center; /* Vertically aligns image and text */
