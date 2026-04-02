@@ -3,7 +3,6 @@ import React from "react";
 function Hero() {
   return (
     <div className="container">
-      {/* Heading Section */}
       <div className="row p-3 p-md-5 mt-5 mb-5">
         <h2 className="text-center fs-2">
           We pioneered the discount broking model in India.
@@ -12,8 +11,8 @@ function Hero() {
         </h2>
       </div>
 
-      {/* Content Section: col-12 makes them stack vertically on mobile */}
-      <div className="row p-3 p-md-5 border-top text-muted" style={{ lineHeight: "1.9", fontSize: "1rem" }}>
+      <div className="row p-3 p-md-5 border-top text-muted" style={{ lineHeight: "1.9" }}>
+        {/* col-12 makes it 100% width on mobile (one below the other) */}
         <div className="col-12 col-md-6 mb-4 mb-md-0">
           <p>
             We kick-started operations on the 15th of August, 2010 with the goal
@@ -25,12 +24,9 @@ function Hero() {
             Today, our disruptive pricing models and in-house
             technology have made us the biggest stock broker in India.
           </p>
-          <p>
-            Over 1.6+ crore clients place billions of orders every year through our
-            powerful ecosystem of investment platforms.
-          </p>
         </div>
         
+        {/* Second column starts below the first on mobile */}
         <div className="col-12 col-md-6">
           <p>In addition, we run a number of popular open online educational and community initiatives to empower retail traders and investors.</p>
           <p>
