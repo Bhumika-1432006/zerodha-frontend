@@ -132,3 +132,53 @@ code {
     text-align: left;
   }
 }
+/* Center all content within your product rows */
+.row {
+  align-items: center; /* Vertically aligns image and text */
+  justify-content: center; /* Horizontally centers the columns */
+}
+
+/* Ensure the columns themselves don't hug the edges of the container */
+.container {
+  max-width: 1100px; /* Standardizes the width for better centering */
+  margin: 0 auto;
+}
+
+/* Target the text columns to ensure paragraphs are centered relative to their container */
+.col-5, .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* --- MOBILE SPECIFIC ALIGNMENT --- */
+@media (max-width: 992px) {
+  .row {
+    text-align: center !important;
+  }
+
+  /* Remove the "padding" columns (col-1) on mobile so they don't take space */
+  .col-1 {
+    display: none !important;
+  }
+
+  /* Force images to center in their stacked view */
+  img {
+    margin: 0 auto 20px auto !important;
+    display: block;
+  }
+
+  /* Center the links/buttons that are side-by-side */
+  .col-5 div, .col-6 div {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Replaces the need for marginLeft: 50px on mobile */
+    margin-left: 0 !important;
+  }
+
+  /* Reset any specific margins you had in inline styles */
+  a {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
