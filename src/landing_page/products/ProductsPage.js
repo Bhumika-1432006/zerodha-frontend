@@ -22,8 +22,8 @@ function ProductsPage() {
   }
         tryDemo=""
          learnMore=""
-        googlePlay=""
-        appStore=""
+       googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.kite3&hl=en_IN"
+  appStore="https://apps.apple.com/lk/app/zerodha-kite-trade-invest/id1449453802"
 
       />
 
@@ -58,8 +58,8 @@ function ProductsPage() {
   }
         tryDemo=""
         learnMore=""
-        googlePlay=""
-        appStore=""
+        googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.kite3&hl=en_IN"
+  appStore="https://apps.apple.com/lk/app/zerodha-kite-trade-invest/id1449453802"
       />
 
         <RightSection
@@ -93,8 +93,8 @@ function ProductsPage() {
   }
         tryDemo=""
         learnMore=""
-        googlePlay=""
-        appStore=""
+       googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.kite3&hl=en_IN"
+  appStore="https://apps.apple.com/lk/app/zerodha-kite-trade-invest/id1449453802"
       />
 
       <div className="text-center mt-5 mb-5 text-muted">
