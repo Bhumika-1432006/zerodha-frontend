@@ -5,7 +5,7 @@ productName,
 productDescription,
 tryDemo,
 learnMore,
-googlePlay,
+googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.kite3&hl=en_IN",
 appStore,
 }) {
     return ( 
