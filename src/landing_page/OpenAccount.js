@@ -9,7 +9,7 @@ function OpenAccount() {
                 
                <img src='media/images/homeHero.png'  alt='Hero Image' className='mb-5'/>
 
-            <h1 className='mt-5'>Open a Zerodha account</h1>
+            <h1 className='mt-5'>Open a QuantEdge account</h1>
 
             <p>Modern platform and apps, rs 0 investments, and flat rs 2 intraday and F&0 trades</p>
           <Link 

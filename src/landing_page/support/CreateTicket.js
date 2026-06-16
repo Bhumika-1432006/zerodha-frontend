@@ -14,7 +14,7 @@ function CreateTicket({ onTopicClick }) {
             ]
         },
         {
-            title: "Your Zerodha Account",
+            title: "Your QuantEdge Account",
             icon: "fa-solid fa-user",
             links: [
                 { q: "How to reset password?", a: "Click 'Forgot Password' on Kite, enter PAN/Email, and use the reset link sent." },

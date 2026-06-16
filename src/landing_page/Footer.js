@@ -21,7 +21,7 @@ function Footer() {
             style={{ width: "50%" }}
           />
           <p className="mt-3">
-            &copy; 2010 - 2026, Not Zerodha Broking Ltd. All rights reserved.
+            &copy; 2010 - 2026, Not QuantEdge Broking Ltd. All rights reserved.
           </p>
         </div>
         
@@ -52,8 +52,8 @@ function Footer() {
       </div>
 
       <div className="mt-5 text-muted" style={{ fontSize: "13px" }}>
-        <p>Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration no.:
-        INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd. –
+        <p>QuantEdge Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration no.:
+        INZ000031633 CDSL/NSDL: Depository services through QuantEdge Broking Ltd. –
         SEBI Registration no.: IN-DP-431-2019 Commodity Trading through Zerodha
         Commodities Pvt. Ltd. MCX: 46025; SEBI Registration no.: INZ000038238
         Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars

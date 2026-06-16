@@ -12,7 +12,7 @@ function Stats() {
                     
                     <p className='fs-5 text-muted mb-5' style={{ lineHeight: "1.8" }}>
                         From a pioneering discount broker to India’s largest financial services 
-                        ecosystem, Zerodha’s journey is built on <strong>technology</strong>, 
+                        ecosystem, QuantEdge's journey is built on <strong>technology</strong>, 
                         <strong>transparency</strong>, and a focus on the <strong>investor experience</strong>. 
                         We don't just facilitate trades; we empower a generation.
                     </p>

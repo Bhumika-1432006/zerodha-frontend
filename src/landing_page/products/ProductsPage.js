@@ -33,7 +33,7 @@ function ProductsPage() {
         productName="Console"
         productDescription={
         <>
-            The central dashboard for your Zerodha <br/>
+            The central dashboard for your QuantEdge <br/>
          account. Gain insights into your trades and <br/>
          investments with in-depth reports and <br/>
          visualisations.

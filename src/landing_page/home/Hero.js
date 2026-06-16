@@ -41,7 +41,7 @@ function Hero() {
                         
                         <div className='mb-4'>
                             <h3 className='fs-4 fw-bold'>Customer-first always</h3>
-                            <p className='text-muted fs-5'>That's why 1.3+ crore customers trust Zerodha with ₹3.5+ lakh crores worth of equity investments.</p>
+                            <p className='text-muted fs-5'>That's why 1.3+ crore customers trust QuantEdge with ₹3.5+ lakh crores worth of equity investments.</p>
                         </div>
                         
                         <div className='mb-4'>

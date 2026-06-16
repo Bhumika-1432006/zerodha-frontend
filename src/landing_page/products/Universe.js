@@ -5,7 +5,7 @@ function Universe() {
     return ( 
       <div className="container border-bottom mb-7">
       <div className="row  text-center " style={{ lineHeight: "2" }}>
-        <h1>The Zerodha Universe</h1>
+        <h1>The QuantEdge Universe</h1>
         <p>Extend your trading and investment experience even further with our partner platforms</p>
       
       <div className="col-4 p-3  mt-5">
